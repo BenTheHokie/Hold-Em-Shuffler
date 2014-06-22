@@ -80,5 +80,6 @@ while True:
         prthands()
         prtboard()
         board+=[deck.pop(0)]
-        raw_input()
+        a = raw_input()
         cls()
+    if a=='x': break
